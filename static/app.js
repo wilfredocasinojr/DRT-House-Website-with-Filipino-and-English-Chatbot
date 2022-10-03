@@ -1,5 +1,3 @@
-alert("Bawal tanga");
-
 class Chatbox {
     constructor() {
         this.args = {
@@ -20,7 +18,7 @@ class Chatbox {
 
         sendButton.addEventListener('click', () => this.onSendButton(chatBox))
 
-        buttons.forEach(btn => btn.addEventListener('click', () => this.onClickButton(chatbox, event)))
+        buttons.forEach(bttn => bttn.addEventListener('click', () => this.onClickButton(chatbox, event)))
 
         const node = chatBox.querySelector('.message');
         node.addEventListener("keyup", ({key}) => {
@@ -42,7 +40,6 @@ class Chatbox {
     }
 
     onClickButton(chatbox, event){
-    var textField = chatbox.querySelector('input');
         let text1 = event.target.value;
 
         if (text1 === "") {
