@@ -1,5 +1,3 @@
-alert("Bawal tanga");
-
 class Chatbox {
     constructor() {
         this.args = {
@@ -42,7 +40,6 @@ class Chatbox {
     }
 
     onClickButton(chatbox, event){
-    var textField = chatbox.querySelector('input');
         let text1 = event.target.value;
 
         if (text1 === "") {
