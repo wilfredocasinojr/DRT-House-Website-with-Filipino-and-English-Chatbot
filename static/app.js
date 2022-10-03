@@ -18,7 +18,7 @@ class Chatbox {
 
         sendButton.addEventListener('click', () => this.onSendButton(chatBox))
 
-        buttons.forEach(bttn => bttn.addEventListener('click', () => this.onClickButton(chatbox, event)))
+        buttons.forEach(btn => btn.addEventListener('click', () => this.onClickButton(chatbox, event)))
 
         const node = chatBox.querySelector('.message');
         node.addEventListener("keyup", ({key}) => {
