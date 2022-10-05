@@ -18,7 +18,7 @@ class Chatbox {
 
         sendButton.addEventListener('click', () => this.onSendButton(chatBox))
 
-        buttons.forEach(btn => btn.addEventListener('click', () => this.onClickButton(chatbox, event)))
+        buttons.forEach(btn => btn.addEventListener('click', () => this.onClickButton(chatBox, event)))
 
         const node = chatBox.querySelector('.message');
         node.addEventListener("keyup", ({key}) => {
@@ -69,7 +69,6 @@ class Chatbox {
             this.updateChatText(chatbox)
             textField.value = ''
           });
-          this.updateChatText(chatbox)
     }
 
     onSendButton(chatbox) {

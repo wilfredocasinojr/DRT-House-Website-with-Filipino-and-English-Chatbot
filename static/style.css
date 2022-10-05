@@ -60,6 +60,9 @@ body {
     cursor: pointer;
 }
 
+.onclick__button{
+    opacity: 0
+}
 
 /* HEADER */
 .chatbox__header {
