@@ -245,6 +245,180 @@
         "Yes, we have a spacious area for your cars and everything.",
         "Yes we have a place for you in the parking area."
       ]
+    },
+    {
+      "tag": "lugar",
+      "patterns": [
+        "Saan matatagpuan ang DRT House?",
+        "Saan kayo makikita?",
+        "Ano ang pinakamalpit na palatandaan?"
+      ],
+      "responses": [
+        "Ang DRT House ay matatagpuan sa Sitio Kutad, Tanawan St. Pulong Sampaloc DRT Bulacan. Kami ay 5 minuto mula sa Caribbean Waves Waterpark Resort.",
+        "Pwede niyo kaming mahanap sa Google Maps, hanapin lamang ang DRT House",
+        "Pwede kayong gumamit ng Waze Application upang makapunta sa lokasyon ng DRT House"
+      ]
+    },
+    {
+      "tag": "presyo",
+      "patterns": [
+        "Magkano po kada araw?",
+        "Magkano po pag weekends?",
+        "Magkano po pag weekdays?",
+        "Parehas lang po ba presyo weekdays at weekends?"
+      ],
+      "responses": [
+        "Ang presyo kada weekends ay 7500 pesos at 6500 naman pag weekdays",
+        "Ang presyo ay nakabatay sa araw kaya kapag sa weekdays ito ay 6500 pesos at 7500 pesos pag weekends."
+      ]
+    },
+    {
+      "tag": "impormasyon",
+      "patterns": [
+        "Ano po yung DRT House?",
+        "Ano po meron sa DRT House?",
+        "Para saan po ang DRT House?"
+      ],
+      "responses": [
+        "Ang Diamante Reyes Transient House o DRT House ay may Infinity pool at medium house na may magandang tanawin ng DRT. Kung mahilig kayo sa kalikasan ay siguradong magugustuhan ninyo ang DRT House.",
+        "Ang DRT House with Infinity Pool ay isang maliit na pribadong pahingahan na maaring rentahan at tuluyan na may magagandang tanawin ng Dona Remedios Trinidad(DRT)."
+      ]
+    },
+    {
+      "tag": "bilang",
+      "patterns": [
+        "Ilang tao pwede magkasya sa DRT House?",
+        "Ilan pwede mag-stay?",
+        "Ilang pax?",
+        "Ilang tao pinakamaraming pwedeng magkasya?"
+      ],
+      "responses": [
+        "Hanggang 20 katao ang pwedeng manatili sa DRT House",
+        "Pwede mong isama ang iyong pamilya hanggang sa 20 katao sa aming DRT House",
+        "20 katao ang pwedeng manatili sa DRT House."
+      ]
+    },
+    {
+      "tag": "silid",
+      "patterns": [
+        "Ilan po ba pwede mag stay sa isang room?",
+        "Ilan po pwede sa teepee house?",
+        "Ilan po kasya sa Bahay Kubo?",
+        "Ilan po kasya sa Main House?",
+        "Ilan po ang magagamit na room?",
+        "Ilan po ang magagamit na cottages?",
+        "Ilan po ang magagamit na teepee houses?",
+        "Ilan po ang magagamit na Bahay Kubo?"
+      ],
+      "responses": [
+        "Ang DRT house ay mayroong main house, isang bahay kubo, dalawang teepee houses. 10 katao ang kayang magkasya sa main house na may double deck bed, isang queen size bed, L-shaped sofa, sofa-bed at matrtresses. Ang bahay kubo naman na may terrace ay kayang magkasya ang tatlo hanggang limang katao at ang dalawang teepee houses naman ay kayang magkasya ang isa at dalawang katao."
+      ]
+    },
+    {
+      "tag": "reserba",
+      "patterns": [
+        "Paano gumawa ng reservation?",
+        "Pwede ba reservation sa telepono?",
+        "Paano ko makokompima yung reservation?",
+        "Pwede ba ko magpareserve?",
+        "Pwede ba ko magpareserve ng date?"
+      ],
+      "responses": [
+        "Maari po kayong magpa-reserba ng araw gamit ang inyong GCash account sa pamamagitan ng pag-send ng 2000 pesos. Ang aming numero ay 09326515696 at ang reservation fee ay hindi na po maibabalik kapag nag-cancel po ng booking."
+      ]
+    },
+    {
+      "tag": "kontaks",
+      "patterns": [
+        "Paano po kayo matawagan?",
+        "Ano po contact number niyo o facebook page?",
+        "Ano po contact number niyo?",
+        "Ano po facebook page niyo?",
+        "Meron po ba kayong facebook page?",
+        "Ano po facebook niyo?"
+      ],
+      "responses": [
+        "Maaari niyo kaming tawagan sa numerong ito 09326515696 o kaya ay iwanan ang inyong mensahe sa aming Facebook Page \"DRT House\""
+      ]
+    },
+    {
+      "tag": "oras",
+      "patterns": [
+        "Anong oras puwedeng pumunta at umalis?",
+        "Maaari bang mabago ang oras ng pagpunta?",
+        "Maaari bang patagalin ang pagpunta?",
+        "Ilang oras ang pananatili namin?",
+        "Ilang oras ang puwedeng magamit?"
+      ],
+      "responses": [
+        "Para sa aming mga minamahal na bisita, meron po kayong 22 oras para manatili sa aming DRT House. Ang oras ng check-in ay 4:00 pm at ang check-out ay 2:00 pm kinabukasan. Ang mga alituntuning ito ay mahigpit na ipinapatupad para sa lahat ng aming mga bisita dahil kami ay maglilinis at maghahanda para sa mga susunod na bisita.",
+        "Mayroong 22 oras na pananatili sa aming DRT House para sa aming mga minamahal na bisita. Ang oras ng check-in ay 4:00 pm at ang check-out ay 2:00 pm kinabukasan. Dahil kami ay mayroong bisita araw-araw, kailangan naming sumunod sa mga regulasyon at mag-linis para sa aming susunod na bisita. Ito ay mahigpit na ipinapatupad sa lahat ng aming bisita."
+      ]
+    },
+    {
+      "tag": "bayad",
+      "patterns": [
+        "Tumatanggap ba kayo ng credit card?",
+        "Tumatanggap ba kayo ng Mastercard?",
+        "Pwede ba ko magbayad gamit Paypal?",
+        "Tumatanggap ba kayo GCash?",
+        "Pwede ba magbayad gamit GCash?",
+        "Paano ako magbabayad?"
+      ],
+      "responses": [
+        "Tumatanggap po kami ng GCash payment sa reservations at maaring magbayad na ng buo sa DRT house. Tumatanggap kami ng cash o Gcash para sa buong kabayaran."
+      ]
+    },
+    {
+      "tag": "pasilidad",
+      "patterns": [
+        "Ano po mga pwedeng gawin sa DRT House?",
+        "Ano po mga inooffer niyo?",
+        "Ano po mga pasilidad sa DRT house?",
+        "Ano po mga serbisyong meron DRT house?"
+      ],
+      "responses": [
+        "Ang DRT House ay may main house with air conditioning, infinity pool, queen size bed. Double deck bed, sofa bed, L-shape sofa, 32 flat screen tv, refrigerator, Bluetooth speaker, gas stove, rice cooker, kettle, completing kitchen utensils, fresh linen at blankets, ihawan at isang Bahay Kubo na kaya ang 3-5 na ka-tao at dalawang teepee houses na puwede ang 1-3 na tao."
+      ]
+    },
+    {
+      "tag": "petsa",
+      "patterns": [
+        "May bakanteng araw pa ba?",
+        "Ano ang bakanteng araw sa buwan ng?",
+        "Meron pa bang bakanteng araw sa linggong ito?",
+        "Kailan magkakaroon ng bakanteng araw?",
+        "Kailan puwedeng magpareserba?"
+      ],
+      "responses": [
+        "Kung gusto niyo po magpa-reserve, pwede niyo kaming maabot sa numerong 09326515696 o i-message ang aming Facebook page."
+      ]
+    },
+    {
+      "tag": "languyan",
+      "patterns": [
+        "Gaano po kalalim ang inyong pool?",
+        "Meron po bang pam-batang pool?",
+        "Ilang feet po ba ang pool?"
+      ],
+      "responses": [
+        "Ang pool ng DRT house ay mayroong lalim na 5 talampakan para sa adult area at meron ding kidddie area para ma-enjoy ng mga bata."
+      ]
+    },
+    {
+      "tag": "parkingan",
+      "patterns": [
+        "May esapsyo ba kayo para sa paradahan?",
+        "May lugar ba kayo para sa paradahan?",
+        "Pwede ko bang maiparada ang aking sasakyan sa inyong lugar?",
+        "Mayroon ba kayong paradahan?",
+        "Saan ako pwedeng magparada?"
+      ],
+      "responses": [
+        "Mayroon kaming nakalaan na paradahan para sa mga sasakyan",
+        "Mayroon kaming malawak na esapasyo para sa inyong mga sasakyan",
+        "Mayroon kaming lugar para para sa inyong mga sasakyan sa aming paradahan"
+      ]
     }
   ]
 }
